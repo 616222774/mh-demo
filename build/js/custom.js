@@ -4181,8 +4181,8 @@ function timeSet() {
 						map: 'china',
 						left: '10',
 						right: '35%',
-						center: [117.98561551896913, 31.205000490896193],
-						zoom: 2.5,
+						center: [103.98561551896913, 36.205000490896193],
+						zoom: 1.2,
 						label: {
 							emphasis: {
 								show: false

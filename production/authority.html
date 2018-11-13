@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/favicon.ico" type="image/ico" />
+
+    <title>Marketing Hub | </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+    <style>
+        .nav-mid {
+          width: 40%;
+          float: left;
+          margin-top: 12px;
+          display: flex;
+          
+        }
+        .nav-mid .icon, .nav-mid .more {
+          margin-top: 8px;
+        }
+        .notice {
+          height: 35px;
+          padding: 0 30px 0 0;
+          overflow: hidden;
+        }
+        .notice ul {
+          margin: 0 0 0 10px;
+          padding: 0;
+        }
+        .notice ul li {
+          list-style: none;
+          line-height: 35px;
+          display: block;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      </style>
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"> <span>Marketing Hub</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>欢迎登录,</span>
+                <h2>赵欣欣</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                <div class="menu_section">
+                  <ul class="nav side-menu">
+                    <li><a><i class="fa fa-clipboard"></i> 素材中心 <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="index.html">素材审核</a></li>
+                        <li><a href="#">素材分类</a></li>
+                        <li><a href="#">素材留言</a></li>
+                        <li><a href="files_sta.html">素材统计</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-cubes"></i> 项目中心 <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="#">规划力度</a></li>
+                        <li><a href="plans.html">营销方案</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-book"></i> 案例中心 <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="#">总部案例</a></li>
+                        <li><a href="#">大区案例</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-bookmark"></i> IP中心 <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="#">总部信息</a></li>
+                        <li><a href="#">区域承接</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-truck"></i> 促销品中心 <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="#">促销品分类</a></li>
+                        <li><a href="goods_sta.html">销售统计</a></li>
+                        <li><a href="#">仲裁管理</a></li>
+                        <li><a href="#">财务管理</a></li>
+                        <!-- <li><a href="form_upload.html">Form Upload</a></li>
+                        <li><a href="form_buttons.html">Form Buttons</a></li> -->
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-users"></i> 用户和权限管理 <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="javascript:void(0)">用户管理</a></li>
+                        <li><a href="authority.html">角色管理</a></li>
+                        <!-- <li><a href="typography.html">Typography</a></li>
+                        <li><a href="icons.html">Icons</a></li>
+                        <li><a href="glyphicons.html">Glyphicons</a></li>
+                        <li><a href="widgets.html">Widgets</a></li>
+                        <li><a href="invoice.html">Invoice</a></li>
+                        <li><a href="inbox.html">Inbox</a></li>
+                        <li><a href="calendar.html">Calendar</a></li> -->
+                      </ul>
+                    </li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-gear"></i> 参数设置管理 </a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-send"></i> 公告管理 </a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-comments"></i> 系统留言 </a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-trash"></i> 回收站 </a></li>
+                    <!-- <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="tables.html">Tables</a></li>
+                        <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="chartjs.html">Chart JS</a></li>
+                        <li><a href="chartjs2.html">Chart JS2</a></li>
+                        <li><a href="morisjs.html">Moris JS</a></li>
+                        <li><a href="echarts.html">ECharts</a></li>
+                        <li><a href="other_charts.html">Other Charts</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                        <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </div>
+                <!-- <div class="menu_section">
+                  <h3>Live On</h3>
+                  <ul class="nav side-menu">
+                    <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="e_commerce.html">E-commerce</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="project_detail.html">Project Detail</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li><a href="page_403.html">403 Error</a></li>
+                        <li><a href="page_404.html">404 Error</a></li>
+                        <li><a href="page_500.html">500 Error</a></li>
+                        <li><a href="plain_page.html">Plain Page</a></li>
+                        <li><a href="login.html">Login Page</a></li>
+                        <li><a href="pricing_tables.html">Pricing Tables</a></li>
+                      </ul>
+                    </li>
+                    <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                          <li><a href="#level1_1">Level One</a>
+                          <li><a>Level One<span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                              <li class="sub_menu"><a href="level2.html">Level Two</a>
+                              </li>
+                              <li><a href="#level2_1">Level Two</a>
+                              </li>
+                              <li><a href="#level2_2">Level Two</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li><a href="#level1_2">Level One</a>
+                          </li>
+                      </ul>
+                    </li>                  
+                    <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
+                  </ul>
+                </div> -->
+  
+              </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+            <div class="nav_menu">
+              <nav>
+                <div class="nav toggle">
+                  <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                </div>
+  
+                <div class="nav-mid">
+                    <div class="icon"><i class="fa fa-bell-o" style="font-size:16px;"></i></div>
+                    <div class="notice">
+                        <ul>
+                            <li>C200 2019款 运动版 新车上市， 宣传KV素材下发， 请相关单位留意素材库的文件更新</li>
+                            <li>Marketing Hub 系统更新, 版本号：V2.1.0, 更新功能： 1、新增管理员、代理商的回收站功能</li>
+                            <li>为了进一步提高服务质量和升级服务资源，MarketingHub将于 2018 年 9 月 8 日凌晨 2:00 至 8:00 进行升级维护。  维护期间，您将无法登录访问网页端</li>
+                            <li>A45 2019款 上市， 广宣素材下发， 请相关单位留意素材库的文件更新</li>
+                        </ul>
+                    </div>
+    
+                    <a href="#" class="more" style="display: inline-block;width: 70px;">更多</a>
+                  </div>
+  
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="">
+                    <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                      <img src="images/img.jpg" alt="">赵欣欣
+                      <span class=" fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                      <li><a href="javascript:;"> Profile</a></li>
+                      <li>
+                        <a href="javascript:;">
+                          <span class="badge bg-red pull-right">50%</span>
+                          <span>Settings</span>
+                        </a>
+                      </li>
+                      <li><a href="javascript:;">Help</a></li>
+                      <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                    </ul>
+                  </li>
+  
+                  <li role="presentation" class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-envelope-o"></i>
+                      <span class="badge bg-green">6</span>
+                    </a>
+                    <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <div class="text-center">
+                          <a>
+                            <strong>See All Alerts</strong>
+                            <i class="fa fa-angle-right"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2><i class="fa fa-bars"></i> 角色管理 <small>用户和权限管理</small></h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                  <li><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+
+                <div class="row" style="margin: 10px 0;">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                      <button type="button" class="btn btn-primary">新增</button>
+                  </div>
+
+                  <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                    <input type="text" class="form-control" id="inputSuccess5" placeholder="搜索角色、功能名称">
+                    <span class="fa fa-search form-control-feedback right" aria-hidden="true"></span>
+                  </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-striped jambo_table bulk_action">
+                      <thead>
+                        <tr class="headings">
+                          <th>
+                            <input type="checkbox" id="check-all" class="flat">
+                          </th>
+                          <th class="column-title" style="width: 100px;">角色名称 </th>
+                          <th class="column-title" style="width: 100px;">创建人 </th>
+                          <th class="column-title" style="width: 160px;">创建时间 </th>
+                          <th class="column-title">拥有功能 </th>
+                          <th class="column-title no-link last" style="width: 100px;"><span class="nobr">操作 </span>
+                          </th>
+                          <th class="bulk-actions" colspan="7">
+                            <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
+                          </th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+
+                        <tr class="even pointer">
+                          <td class="a-center ">
+                            <input type="checkbox" class="flat" name="table_records">
+                          </td>
+                          <td class=" ">经销商</td>
+                          <td class=" ">管理员A1</td>
+                          <td class=" ">2018-08-07 15:16:33</td>
+                          <td class=" ">素材库、收藏夹(素材)、促销品、购物车、我的订单、收藏夹(促销品)、收货地址、素材留言、促销品留言、其他留言</td>
+                          <td class=" last">
+                              <a href="#">修改</a>&nbsp;&nbsp;&nbsp;
+                              <a href="#">删除</a>&nbsp;&nbsp;&nbsp;
+                          </td>
+                        </tr>
+
+                        <tr class="even pointer">
+                          <td class="a-center ">
+                            <input type="checkbox" class="flat" name="table_records">
+                          </td>
+                          <td class=" ">代理商一类</td>
+                          <td class=" ">管理员A3</td>
+                          <td class=" ">2018-08-07 15:11:33</td>
+                          <td class=" ">素材库、收藏夹(素材)、我的素材、素材留言、其他留言、回收站</td>
+                          <td class=" last">
+                              <a href="#">修改</a>&nbsp;&nbsp;&nbsp;
+                              <a href="#">删除</a>&nbsp;&nbsp;&nbsp;
+                          </td>
+                        </tr>
+ 
+                        <tr class="even pointer">
+                          <td class="a-center ">
+                            <input type="checkbox" class="flat" name="table_records">
+                          </td>
+                          <td class=" ">代理商二类</td>
+                          <td class=" ">管理员A2</td>
+                          <td class=" ">2018-08-07 15:26:33</td>
+                          <td class=" ">素材库、收藏夹(素材)、促销品、购物车、我的订单、收藏夹(促销品)、收货地址、素材留言、促销品留言、其他留言</td>
+                          <td class=" last">
+                              <a href="#">修改</a>&nbsp;&nbsp;&nbsp;
+                              <a href="#">删除</a>&nbsp;&nbsp;&nbsp;
+                          </td>
+                        </tr>
+
+                        <tr class="even pointer">
+                          <td class="a-center ">
+                            <input type="checkbox" class="flat" name="table_records">
+                          </td>
+                          <td class=" ">供应商</td>
+                          <td class=" ">管理员A1</td>
+                          <td class=" ">2018-08-07 18:16:33</td>
+                          <td class=" ">素材库、收藏夹(素材)、商品管理、分类管理、售后管理、销售统计、评论管理、财务管理、物流管理、交易管理、店铺管理、素材留言、促销品留言、其他留言</td>
+                          <td class=" last">
+                              <a href="#">修改</a>&nbsp;&nbsp;&nbsp;
+                              <a href="#">删除</a>&nbsp;&nbsp;&nbsp;
+                          </td>
+                        </tr>
+
+                        <tr class="even pointer">
+                          <td class="a-center ">
+                            <input type="checkbox" class="flat" name="table_records">
+                          </td>
+                          <td class=" ">管理员</td>
+                          <td class=" ">管理员A1</td>
+                          <td class=" ">2018-08-07 18:16:33</td>
+                          <td class=" ">素材分类、素材留意、素材统计、促销品分类、数据管理、仲裁管理、财务管理、用户管理、角色管理、参数设置管理、公告管理、系统留意、回收站</td>
+                          <td class=" last">
+                              <a href="#">修改</a>&nbsp;&nbsp;&nbsp;
+                              <a href="#">删除</a>&nbsp;&nbsp;&nbsp;
+                          </td>
+                        </tr>
+
+                      </tbody>
+
+                    </table>
+
+  
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Marketing Hub - files & market management system by <a href="https://colorlib.com">GIMC13IT</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.js"></script>
+
+    <script>
+        window.onload = function(){
+          setInterval("noticeUp('.notice ul','-35px',500)", 2000);
+  
+          
+        };
+        function noticeUp(obj,top,time) {
+            $(obj).animate({
+                marginTop: top
+            }, time, function () {
+                $(this).css({marginTop:"0"}).find(":first").appendTo(this);
+            })
+          }
+      </script>
+	
+  </body>
+</html>
